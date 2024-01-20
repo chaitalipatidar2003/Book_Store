@@ -1,0 +1,53 @@
+
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .banner .swiper-slide:nth-child(1n) {
+    background-image: url("\src\assets\images\47.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url("/src\assets\images\81yLAj-dOjL._SL1500_.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url("/src\assets\images\9781577666127.jpg");;
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url("\/src\assets\images\cover_md.jpeg");
+  }
+  
+  .banner .swiper-slide:nth-child(5n) {
+    background-image: url("/src\assets\images\cover-orig-5924.jpg");;
+  }
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url("/src\assets\images\cover-orig-29439.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(7n) {
+    background-image: url("/src\assets\images\ladytawem_.jpg");  }
+  
+  .banner .swiper-slide:nth-child(8n) {
+    background-image: url("/src\assets\images\LauraScott_HealingHerHeart_2500.jpg");  }
+  
+  .banner  .swiper-slide:nth-child(9n) {
+    background-image: url("/src\assets\images\9781577666127.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(10n) {
+    background-image: url("/src\assets\images\cover-orig-29439.jpg"); }
+  
