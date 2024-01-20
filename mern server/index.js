@@ -8,7 +8,14 @@ app.use(cors({
   origin:[https://book-store-gold-three.vercel.app/],
           methods:["POST", "GET"],
           credentials: true
+          }
             ))
+
+// app.use(cors({
+//   origin:[https://book-store-gold-three.vercel.app/],
+//           methods:["POST", "GET"],
+//           credentials: true
+//         }    ))
 app.use(express.json())
 app.get('/', (req, res) => {
   res.send('Hello World!')
